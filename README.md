@@ -12,4 +12,7 @@ A script with the direct goal of automating sequential operations to lines on an
  ## formata_tempo(tempo) simply takes the input time in seconds (tempo) and puts it in a "xx h xx min xx sec" format to be inserted into a cell
  
  ## into the main loop, since the file was successfully loaded (the "file", "pasta" and "nome_pasta"variables are reserved for that), the main loop will iterate trough the lines in the spreadsheet, starting in the position x and ending when it encounters a empty cell, it will execute the functions listed above and if the cell format is correct in all of them, itwill print the total time in a new sheet called "Tempo", with the respective names of the participants and their total time spent
+ 
+ 
+# OBS: for the purpose of testing, use the "presenca.xlsx" file in the repository, since it has the required formatting
   
